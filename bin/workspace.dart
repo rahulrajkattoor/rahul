@@ -290,9 +290,57 @@ import 'package:test/expect.dart';
 //   parent obj=parent("rajesh");
 //   child obj1=child("riya");
 // }
-void main(){
-  for(int i=0;i<=4;i++){
-    for(int j=0;j<=4;j++){
+// void main(){
+//   for(int i=0;i<=4;i++){
+//     for(int j=0;j<=4;j++){
+//       stdout.write("*");
+//     }
+//     stdout.writeln("");
+//   }
+// }
+// class demo{
+//   String ?name;
+//   int ?age;
+//   String ?course;
+//   set setname (String){
+//     this.name=name;
+//   }
+//   set setage(int){
+//     this.age=age;
+//   }
+//   set setcourse(String){
+//     this.course=course;
+//   }
+//   String?get getname{
+//     return name;
+//   }
+//   int?get getage{
+//     return age;
+//   }
+//   String?get getcourse{
+//     return course;
+//   }
+//
+// }
+// void main()
+// {
+//   try {
+//     int r = 10 ~/ 0;
+//   }
+//   on IntegerDivisionByZeroException{
+// print("error");
+//   }
+//   print("welcome");
+// }
+void main() {
+  for (int i =0; i <= 4; i++) {
+    for (int j= 0;j<=i; j++) {
+      stdout.write("*");
+    }
+    stdout.writeln("");
+  }
+  for(int i=4;i>=0;i--){
+    for(int j=0;j<=i;j++){
       stdout.write("*");
     }
     stdout.writeln("");

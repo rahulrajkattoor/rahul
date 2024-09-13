@@ -9,6 +9,7 @@ class demo{
   set setage(int age){
     this.age=age;
   }
+
   set setcourse(String course){
     this.course=course;
   }
