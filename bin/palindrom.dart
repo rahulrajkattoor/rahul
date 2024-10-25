@@ -1,7 +1,9 @@
+import 'dart:io';
+
 void main()
 {
   int reminder,sum=0,temp;
-  int number=121;
+  int number=1201;
 
   temp=number;
   while(number>0){
